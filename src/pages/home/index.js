@@ -6,7 +6,7 @@ import Delivery from '../../components/delivery';
 import DiningOut from '../../components/diningOut';
 import Nightlife from '../../components/nightlife';
 
-function HomePage() {
+const HomePage = ()=> {
 const [activeTab, setActiveTab] = useState("Delivery");
 
     return (
@@ -22,13 +22,13 @@ const [activeTab, setActiveTab] = useState("Delivery");
 const getCorrectScreen=(tab)=>{
     switch(tab){
         case "Delivery":
-            return <Delivery />
+            return <Delivery />;
         case "Dining Out":
-            return <DiningOut />
+            return <DiningOut />;
         case "Nightlife":
-            return <Nightlife />
+            return <Nightlife />;
             default:
-                return <div>Delivery</div>
+                return <Delivery />;
     }
 }
 
