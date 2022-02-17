@@ -17,7 +17,7 @@ const Header = () => {
           <div className="location-wrapper">
             <div className="location-icon-name">      
                 <LocationOnIcon className="location-icon absolute-center" />
-                <div>Bangalore</div>
+                <div>Nagpur</div>
             </div>
             <ArrowDropDownIcon className="arrow-down absolute-center" />
           </div>
