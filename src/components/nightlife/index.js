@@ -1,5 +1,4 @@
 import React from 'react';
-import "./nightlife.css";
 import {nightlife} from "../../data/nightlife";
 import SortIcon from '@mui/icons-material/Sort';
 import FilterListIcon from '@mui/icons-material/FilterList';
