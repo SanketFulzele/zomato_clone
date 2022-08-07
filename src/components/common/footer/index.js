@@ -94,7 +94,7 @@ const Footer = () => {
                <div className='social-icons'> <FacebookRoundedIcon /> </div> 
                <div className='social-icons'> <TwitterIcon /> </div> 
                <div className='social-icons'>  <InstagramIcon /> </div> 
-              </div>
+              </div> 
             </div>
           </div>
         </div>
